@@ -72,11 +72,21 @@ button.stop {
   position: absolute;
   height: 128px;
   width: 128px;
-  z-index: 2;
+  z-index: 10;
   transform: translate(-10px, -40px);
   pointer-events: none;
   top: 20px;
     
+}
+
+.reticle img {
+  position: absolute;
+  height: 64px;
+  width: 64;
+  z-index: 2;
+  transform: translate(-10px, -40px);
+  pointer-events: none;
+  top: 20px;
 }
 @keyframes hit {
   from {
